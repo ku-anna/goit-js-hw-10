@@ -1,0 +1,39 @@
+body {
+  padding: 30px;
+}
+
+.timer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  font-size: medium;
+  margin-top: 15px;
+  width: 320px;
+}
+
+input {
+  height: 30px;
+}
+
+button {
+  height: 35px;
+  width: 150px;
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  background-color: rgb(118, 182, 144);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(88, 184, 112);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
